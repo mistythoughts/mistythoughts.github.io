@@ -4676,7 +4676,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   .navbar-header {
     width: 100%;
-    max-width: 238px;
+    max-width: 211px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -4684,7 +4684,7 @@ tbody.collapse.in {
 @media (max-width: 768px) {
   .navbar-header {
     width: 100%;
-    max-width: 238px;
+    max-width: 211px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -7856,6 +7856,7 @@ pre {
   background: #fafafa;
   background: #fff;
   line-height: 1.5;
+  text-align: center;
 }
 
 .fh5co-list-check {
