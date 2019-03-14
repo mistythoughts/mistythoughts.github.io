@@ -4680,14 +4680,18 @@ tbody.collapse.in {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    position: absolute;
-    left: 37%;
+    width: 100%;
+    max-width: 238px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 768px) {
   .navbar-header {
-    position: absolute;
-    left: 20%;
+    width: 100%;
+    max-width: 238px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
