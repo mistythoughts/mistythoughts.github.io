@@ -4794,10 +4794,10 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 30px 25px;
+  padding: 20px 20px;
   font-size: 18px;
   line-height: 20px;
-  height: 80px;
+  height: 60px;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -7422,7 +7422,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   letter-spacing: 2px;
   border-radius: 0px 0px 15px 15px;
-  font-size: 38px;
+  font-size: 34px;
   font-weight: 400;
   margin-left: 0px;
   display: block;
