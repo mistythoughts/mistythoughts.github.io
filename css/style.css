@@ -2573,7 +2573,7 @@ pre code {
   }
 
   .col-md-offset-1 {
-    margin-left: 8.33333%;
+    margin-left: 17.33333%;
   }
 
   .col-md-offset-2 {
@@ -7336,9 +7336,9 @@ button.close {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  font-size: 15px;
-  line-height: 26px;
-  color: #868f90;
+  font-size: 17px;
+  line-height: 30px;
+  color: #7a7a7a;
 }
 
 a {
@@ -7433,7 +7433,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-main {
   clear: both;
-  padding-top: 3em;
 }
 
 #fh5co-content {
@@ -7446,7 +7445,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-intro {
-  padding: 7em 0;
+  padding: 8em 0 10em 0;
 }
 @media screen and (max-width: 768px) {
   .fh5co-intro {
@@ -7454,9 +7453,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .fh5co-intro .intro-lead {
-  font-size: 50px;
-  line-height: 60px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 70px;
+  line-height: 40px;
+  font-family: "Patrick Hand SC", cursive;
 }
 
 .section-lead {
@@ -7472,7 +7471,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 4em;
   padding-top: 2em;
   padding-bottom: 2em;
-  background: #fafafa;
+  background: #ececec;
   float: left;
   width: 100%;
 }
@@ -7527,7 +7526,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description {
   background: #fff;
   padding: 4em;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 36px;
 }
 @media screen and (max-width: 1200px) {
@@ -7541,7 +7540,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-portfolio .fh5co-portfolio-item .fh5co-portfolio-description h2 {
-  font-family: "Open Sans", sans-serif;
   font-size: 30px;
   line-height: 34px;
   font-weight: 300;
@@ -8192,7 +8190,6 @@ pre {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  /* ideally, transition speed should match zoom duration */
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -8265,4 +8262,30 @@ a > img.fh5co-align-center {
   margin-right: auto;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+.main-text {
+  width: 80%;
+  text-align: justify;
+}
+
+.chapters {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 50px
+}
+
+@media (max-width: 992px){
+  .col-md-offset-1 {
+      margin-left: 12.33333%;
+  }
+  .col-md-10 {
+    width: 93.33333%;
+}
+}
+
+.fh5co-portfolio-figure {
+  border-style: solid;
+  border-color: #111111
+}
